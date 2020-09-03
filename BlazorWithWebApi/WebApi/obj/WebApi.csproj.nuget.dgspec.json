@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kaviya\\source\\repos\\7.REST API\\webApi4\\webApi4\\webApi4.csproj": {}
+    "C:\\Users\\kaviya\\source\\repos\\7.REST API\\BlazorWithWebApi\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kaviya\\source\\repos\\7.REST API\\webApi4\\webApi4\\webApi4.csproj": {
+    "C:\\Users\\kaviya\\source\\repos\\7.REST API\\BlazorWithWebApi\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kaviya\\source\\repos\\7.REST API\\webApi4\\webApi4\\webApi4.csproj",
-        "projectName": "webApi4",
-        "projectPath": "C:\\Users\\kaviya\\source\\repos\\7.REST API\\webApi4\\webApi4\\webApi4.csproj",
+        "projectUniqueName": "C:\\Users\\kaviya\\source\\repos\\7.REST API\\BlazorWithWebApi\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "C:\\Users\\kaviya\\source\\repos\\7.REST API\\BlazorWithWebApi\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\kaviya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kaviya\\source\\repos\\7.REST API\\webApi4\\webApi4\\obj\\",
+        "outputPath": "C:\\Users\\kaviya\\source\\repos\\7.REST API\\BlazorWithWebApi\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kaviya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,9 +38,15 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.7, )"
             }
           },
           "imports": [
